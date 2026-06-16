@@ -1,22 +1,40 @@
-# project student management system
-problem statement
+# Student Management System
 
-create a student management system using python and object oriented programming (oop).
+## Overview
 
-the system should allow the user to:
+A simple command-line Student Management System implemented in Python using object-oriented programming. The application manages student records and supports common operations such as adding, viewing, searching, updating, and deleting students, and finding the top scorer.
 
-add a new student.
-view all student
-search for a student using student ID
-update a student's marks
-delete a student record
-display the student with the highest marks
-exit the applications
-student details 
+## Features
 
-each student should have:
+- Add a new student
+- View all students
+- Search for a student by student ID
+- Update a student's marks
+- Delete a student record
+- Display the student with the highest marks
+- Exit the application
 
-student id
-name 
-age 
-marks
+## Student Data Model
+
+Each student record contains:
+
+- Student ID
+- Name
+- Age
+- Marks
+
+## Tech
+
+- Python 3.8+ (object-oriented design)
+
+## Run
+
+Run the application with:
+
+```
+python main.py
+```
+
+## Notes
+
+This README replaces the original problem-statement style text with a concise project description and feature list.
